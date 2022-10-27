@@ -1,0 +1,42 @@
+ 
+.contact h1:first-child{
+    text-align: center;
+
+}
+
+form span{
+    font-weight: bold;
+    color: #8c8c8c;
+}
+
+form p{
+    color: #8c8c8c;
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.inputs input,.inputs textarea{
+    border:2px solid #ddd;
+    border-radius: 10px;
+    flex: 1;
+    padding: 20px;
+}
+
+ 
+.form-btn{
+    align-self: flex-end;
+    background-color: #2980B9;
+    color: white;
+}
+
+@media screen and (max-width:800px) {
+    .form-btn{
+        align-self: center;
+    }
+}

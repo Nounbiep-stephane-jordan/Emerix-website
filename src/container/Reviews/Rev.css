@@ -1,0 +1,61 @@
+.rev{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.good-rev{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.good-rev svg{
+    font-size: 2rem;
+    color: goldenrod;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 50px;
+    transition: all 0.5s;
+}
+
+form input{
+    padding: 10px;
+    border: 2px solid #2980B9;
+    border-radius: 5px;
+    margin: 20px;
+    transition: all 0.5s;
+
+}
+
+textarea{
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #2980B9;
+    border-radius: 5px;
+}
+
+input,textarea:focus{
+    outline: 2px solid #ddd;
+    border: none;
+}
+
+label{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+select{
+    padding: 10px;
+    background-color: #2980B9;
+    color: white;
+    border: none;
+    margin: 20px;
+
+}

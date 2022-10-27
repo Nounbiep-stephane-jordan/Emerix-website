@@ -1,0 +1,116 @@
+
+.header{
+    background-color: #152348;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+ 
+.logo{
+    margin-top: 2rem;
+}
+
+.img{
+    width: 150px;
+    height: auto}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.logo p{
+    line-height: 1;
+    text-align: left;
+    max-width: 50%;
+}
+
+.tel{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.phone-volume{
+    font-size: 3rem;
+    color: #fece2f;
+    font-weight: bold;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.icons svg{
+    font-size: 24px;
+    margin:0 20px;
+ transition: all 0.5s;
+    color: white;
+    cursor: pointer;
+}
+
+.icons svg:hover{
+    color: #3293d2;
+}
+
+.btn{
+    border: none;
+    padding: 20px 50px;
+    background-color: #fece2f;
+    color: #152348;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.btn:hover{
+background-color: #3293d2;
+color: white;
+transform: translate(-3px);
+}
+
+.para{
+    text-align: left;
+    align-items: flex-start;
+}
+
+.tel-text-p{
+    font-weight: bold;
+    color: #fece2f;
+    font-size: 2rem;
+    line-height: 1;
+    margin: 0;
+}
+
+@media screen and (max-width:835px) {
+    .none{
+        display: none;
+    }
+
+    .logo{
+        margin-left: 20px;
+        margin-bottom: 20px;
+
+    }
+
+  .header{
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+    .para{
+        width: 50%;
+        align-items: flex-start;
+        text-align: left;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+}
