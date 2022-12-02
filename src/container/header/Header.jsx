@@ -18,8 +18,7 @@ import {motion} from "framer-motion"
          <div className="tel none">
           <FaPhoneVolume className="phone-volume"/>
         <div className="tel-text">
-          <p className='tel-text-p'>(514) 467-4067</p>
-          <p>contact@Emerik.com</p>
+          <p>contact@Emerix.com</p>
         </div>
       </div>
 
@@ -35,7 +34,7 @@ import {motion} from "framer-motion"
         <button className="btn btn-gold">Get Started</button>
       </div>
 
-      <p className="para">Hamilton Call Center Emerik company services and Call Center Outsourcing Company</p>
+      <p className="para">Hamilton Call Center Emerix company services and Call Center Outsourcing Company</p>
     </motion.div>
   )
 }

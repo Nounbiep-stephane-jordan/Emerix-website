@@ -6,10 +6,10 @@
 
 
 .home-bg{
-    /* background-image: url("../../assets/home img.jpg"); */
+    background-image: url("../../assets/home img.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 400px;
     position: relative;
     box-shadow: 0 20px 10px rgba(0, 0, 0, 0);
@@ -17,8 +17,9 @@
 
 .pulsating{
     position: absolute;
-    bottom: -10.5rem;
+    bottom: 0rem;
     left: 2.5rem;
+    z-index: 99;
 }
 
 .pulsating svg{
@@ -55,7 +56,7 @@
 
 .home-bg img{
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .body-text{
@@ -63,12 +64,11 @@
 }
 
 .body-banner{
-    position: absolute;
     background-color: #222;
-    top: 51.3rem;
-    left: 320px;
     text-align: center;
-    padding: 0 20px;
+    padding: 10px 10px;
+    width:80%;
+    margin:auto;
 }
 
 .text{
@@ -78,9 +78,6 @@
     padding-bottom: 50px;
 }
 
-.text h1:first-child{
-    margin-top: 15rem;
-}
 
 .text p{
     line-height: 2;
@@ -126,6 +123,11 @@
 .circular .left,.circular .right{
     flex: 1;
 }
+
+/* .circular .right{
+    display: flex;
+    justify-content: flex-end;
+} */
 
 .circular h1{
     margin: 2rem 0;
@@ -260,8 +262,23 @@ height: 15rem;
 
     .circular .left{
         text-align: left;
-        margin-left: 10rem;
+        /* margin-left: 10rem; */
     }
+
+    
+}
+
+@media screen and (max-width:912px){
+    .circular-img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .right-small{
+        display: flex;
+        justify-content: flex-end;
+    }
+
 }
 
 
@@ -271,18 +288,6 @@ height: 15rem;
         font-size: 5vh;
     }
 
-    .pulsating {
-        bottom: 12rem;
-        left: 20rem;
-    }
-    .text h1:first-child{
-        margin-top: 20px;
-    }
-    .body-banner{
-        top: 30.1rem;
-        left: 0px;
-        position: absolute;
-    }
 
     .text{
         width:80%;
@@ -299,6 +304,8 @@ height: 15rem;
    .circular{
     flex-direction: column;
    }
+
+
 
    .circular-img{
     height: 400px;
@@ -328,6 +335,11 @@ height: 15rem;
     font-size: normal;
 }
 
+.home-bg{
+    background-size: contain;
+    height: 322px;
+}
+
 }
 
 @media screen and (max-width:540px) {
@@ -348,6 +360,11 @@ height: 15rem;
         font-size: 15px;
     }
 
+    .home-bg{
+    background-size: contain;
+    height: 200px;
+    position: relative;
+    }
 
    
 }

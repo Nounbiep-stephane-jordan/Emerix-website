@@ -25,9 +25,9 @@ const Contact = () => {
 
   return (
     <div className='contact'>
-        <h1>Contact Us</h1>
     <form action="">
-        <h1>Contact Us Online</h1>
+    <h1>Contact Us</h1>
+        {/* <h1>Contact Us Online</h1>
         <p><span>Canada Office</span></p>
         <p><span>Location:</span> Toronto. ON</p>
     <p><span>Director of Sales and Marketing:</span> Eddy Willy Lah: +1 514 228 4591</p>
@@ -35,24 +35,28 @@ const Contact = () => {
     <p><span>Email:</span> contact@kmeroutsourcing.com</p>
     <p><span>Cameroon Oﬃce:</span></p>
     <p><span>Location:</span> Yaounde, Essos.</p>
-    <p><span>Email:</span> info@kmeroutsourcing.com</p>
+    <p><span>Email:</span> info@kmeroutsourcing.com</p> */}
 
-     <div className="inputs">
-    
-     <label htmlFor="">full name</label>
+            <div className="input-box">
+            <label htmlFor="">full name</label>
             <input type="text" name="name"  onChange={handleChange}/>
-
-            <label htmlFor="">email</label>
-            <input type="email" name="email" onChange={handleChange}/>
-
-            <label htmlFor="">tel</label>
-            <input type="tel" name="tel" onChange={handleChange}/>
-  
-            <label htmlFor="">message</label>
-            <textarea name="message" onChange={handleChange}></textarea>
+            </div>
             
-     </div>
-
+             <div className="input-box">
+             <label htmlFor="">email</label>
+            <input type="email" name="email" onChange={handleChange}/>
+             </div>
+             
+             <div className="input-box">
+             <label htmlFor="">tel</label>
+            <input type="tel" name="tel" onChange={handleChange}/>
+             </div>
+             
+             <div className="input-box">
+             <label htmlFor="">message</label>
+            <textarea name="message" onChange={handleChange}></textarea>
+             </div>
+     
             <button className="btn form-btn" type="submit" onClick={handleSubmit}>{loading?"loading...":"submit query"}</button>
     </form>
     </div>

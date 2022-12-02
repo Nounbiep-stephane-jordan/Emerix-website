@@ -29,7 +29,7 @@ Managed IT`].map(item => <li>{item}</li>)}
 
       <motion.div className="right" whileInView={{opacity:1,x:-10}} initial={{opacity:0,x:50}}  transition={{duration:1,ease:'easeInOut'}}>
         <div className="circular-img">
-          <img src={first} alt="home-img 1"/>
+          {/* <img src={first} alt="home-img 1"/> */}
         </div>
       </motion.div>
     </div>
@@ -37,7 +37,7 @@ Managed IT`].map(item => <li>{item}</li>)}
     <div className="circular it">
       <motion.div className="right" whileInView={{opacity:1,x:-10}} initial={{opacity:0,x:50}}  transition={{duration:1,ease:'easeInOut'}}>
         <div className="circular-img">
-          <img src={second} alt="home-img 1"/>
+          {/* <img src={second} alt="home-img 1"/> */}
         </div>
       </motion.div>
 
@@ -67,7 +67,7 @@ Cybersecurity Overview`].map(item => <li>{item}</li>)}
       </motion.div>
       <motion.div className="right" whileInView={{opacity:1,x:-10}} initial={{opacity:0,x:50}}  transition={{duration:1,ease:'easeInOut'}}>
         <div className="circular-img">
-          <img src={third} alt="home-img 1"/>
+          {/* <img src={third} alt="home-img 1"/> */}
         </div>
       </motion.div>
     </div>
@@ -75,7 +75,7 @@ Cybersecurity Overview`].map(item => <li>{item}</li>)}
     <div className="circular it">
       <motion.div className="right"  whileInView={{opacity:1,x:10}} initial={{opacity:0,x:-20}}  transition={{duration:1,ease:'easeInOut'}}>
         <div className="circular-img">
-          <img src={four} alt="home-img 1"/>
+          {/* <img src={four} alt="home-img 1"/> */}
         </div>
       </motion.div>
 

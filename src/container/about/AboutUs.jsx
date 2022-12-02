@@ -8,7 +8,7 @@ const AboutUS = () => {
   return (
     <>
        <div className="main-text">
-       <h1>Emerik company About Us</h1>
+       <h1>Emerix company About Us</h1>
     <p>Kmer Outsourcing knows that as a business owner in the area you require a specialty service that provides an indepth analysis and customized strategy plan that addresses your company's precise needs. We oﬀer qualified, creative and practical technical expertise and skills ensuring that your business reaches its full potential.</p>
         </div>
       
@@ -24,7 +24,7 @@ const AboutUS = () => {
     <div className="circular">
       <motion.div className="right" whileInView={{opacity:1,x:10}} initial={{opacity:0,x:-20}}  transition={{duration:1,ease:'easeInOut'}}>
         <div className="circular-img">
-          <img src={second} alt="home-img 1"/>
+          {/* <img src={second} alt="home-img 1"/> */}
         </div>
       </motion.div>
 

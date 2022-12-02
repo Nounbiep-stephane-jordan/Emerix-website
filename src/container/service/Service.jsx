@@ -7,7 +7,7 @@ const Service = () => {
   return (
     <>
        <div className="main-text">
-       <h1> Emerik company Specialty Services</h1>
+       <h1> Emerix company Specialty Services</h1>
         <p>Running a business is hard work and that is why we are here to help. Businesses want to thrive and not just survive. Why struggle and worry when you don’t have to? No matter what size, or stage of growth your business is at, we will create a unique plan that reflects your needs and results.</p>
        </div>
        <div className="circular">
@@ -22,7 +22,7 @@ const Service = () => {
 
       <div className="right">
         <div className="circular-img">
-          <img src={first} alt="home-img 1"/>
+          {/* <img src={first} alt="home-img 1"/> */}
         </div>
       </div>
     </div>
@@ -30,7 +30,7 @@ const Service = () => {
     <div className="circular">
       <div className="right">
         <div className="circular-img">
-          <img src={second} alt="home-img 1"/>
+          {/* <img src={second} alt="home-img 1"/> */}
         </div>
       </div>
 

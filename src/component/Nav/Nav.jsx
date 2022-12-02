@@ -19,6 +19,7 @@ const Nav = () => {
       <NavLink to="/marketing" exact="true"  activeclassname="active">Marketing Services</NavLink >
       <NavLink to="/digitalization" exact="true"  activeclassname="active">Digitization</NavLink >
       <NavLink to="/it" exact="true"  activeclassname="active">IT Solutions</NavLink >
+      <NavLink to="/recruitement" exact="true"  activeclassname="active">Recruitment and Placement</NavLink >
     </div>
   </div>
       <NavLink to="/about" exact="true" activeclassname="active">About</NavLink >

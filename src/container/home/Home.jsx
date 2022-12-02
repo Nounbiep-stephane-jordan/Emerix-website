@@ -21,7 +21,7 @@ const Home = () => {
    <>
      <motion.div className="home"   >
       <div className="home-bg">
-        <img src={img} alt="home-bg"/>
+        {/* <img src={img} alt="home-bg"/> */}
         <div className="pulsating">
           <BsChevronBarDown/>
         </div>
@@ -31,7 +31,7 @@ const Home = () => {
           <p>Located in Toronto Saving All Of Canada these Major Cities : Montreal ,Vancauveur & Calgary</p>
         </div>
         <motion.div className="text" whileInView={{opacity:1,y:10}} initial={{opacity:0,y:-10}}  transition={{duration:1,ease:'easeInOut'}}>
-        <h1>Offshore Bilingual BPO (Call Center) Services</h1>
+        <h1>Calls and IT Solutions Agency</h1>
        <h1>the Experience You've Always Dreamt Of!</h1>
        <p>Emerik company is a corporation founded in Canada. Its main area of activity is in Business Process
                     Outsourcing. The goal is to enable clients save time and money, so they can focus on their core business
@@ -46,7 +46,7 @@ const Home = () => {
        
     <Circular
     img={first}
-    heading={"Why Use Emerik company"}
+    heading={"Why Use Emerix company"}
     text={` Reduce business costs when using one of our BPO services.
     Save time and focus on your core business
     Increase in productivity and efficiency
@@ -59,7 +59,7 @@ const Home = () => {
     <div className="circular">
       <motion.div className="right"  whileInView={{opacity:1,x:10}} initial={{opacity:0,x:-20}}  transition={{duration:1,ease:'easeInOut'}}>
         <div className="circular-img">
-          <img src={second} alt="home-img 1"/>
+          {/* <img src={second} alt="home-img 1"/> */}
         </div>
       </motion.div>
 
@@ -117,7 +117,7 @@ Automotive</p>
 
     <CTA/>
 
-
+{/* 
   <div className="companies">
     <h1>Companies We Have Worked With</h1>
     <div className='all'>
@@ -149,7 +149,7 @@ Automotive</p>
       <img src={smart} alt="logo"/>
     </div>
     </div>
-  </div>
+  </div> */}
     </>
   )
 }

@@ -6,7 +6,7 @@ const CircularR = ({img,heading,text}) => {
 
 <motion.div className="right"  whileInView={{opacity:1,x:10}} initial={{opacity:0,x:-20}}  transition={{duration:1,ease:'easeInOut'}}>
       <div className="circular-img">
-        <img src={img} alt="home-img 1"/>
+        {/* // <img src={img} alt="home-img 1"/> */}
       </div>
     </motion.div>
     <motion.div className="left"  whileInView={{opacity:1,x:-10}} initial={{opacity:0,x:50}}  transition={{duration:1,ease:'easeInOut'}}>

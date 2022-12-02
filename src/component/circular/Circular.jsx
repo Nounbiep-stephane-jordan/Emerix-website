@@ -9,9 +9,9 @@ const Circular = ({img,heading,text}) => {
       <div className="bar  circular-bar"></div>
     </motion.div>
 
-    <motion.div className="right" whileInView={{opacity:1,x:-10}} initial={{opacity:0,x:50}}  transition={{duration:1,ease:'easeInOut'}}>
+    <motion.div className="right right-small"  whileInView={{opacity:1,x:-10}} initial={{opacity:0,x:50}}  transition={{duration:1,ease:'easeInOut'}}>
       <div className="circular-img">
-        <img src={img} alt="home-img 1"/>
+        {/* <img src={img} alt="home-img 1"/> */}
       </div>
     </motion.div>
   </div>

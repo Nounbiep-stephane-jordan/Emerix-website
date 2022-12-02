@@ -22,7 +22,7 @@ const  Marketing = () => {
 
       <motion.div className="right" whileInView={{opacity:1,x:10}} initial={{opacity:0,x:-20}}  transition={{duration:1,ease:'easeInOut'}}>
         <div className="circular-img">
-          <img src={first} alt="home-img 1"/>
+          {/* <img src={first} alt="home-img 1"/> */}
         </div>
       </motion.div>
     </div>
@@ -30,7 +30,7 @@ const  Marketing = () => {
     <div className="circular">
       <motion.div className="right" whileInView={{opacity:1,x:10}} initial={{opacity:0,x:-20}}  transition={{duration:1,ease:'easeInOut'}}>
         <div className="circular-img">
-          <img src={second} alt="home-img 1"/>
+          {/* <img src={second} alt="home-img 1"/> */}
         </div>
       </motion.div>
 
